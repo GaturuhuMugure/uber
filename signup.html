@@ -8,13 +8,14 @@
     <!-- Bootstrap CSS Online -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--    Bootstrap offline-->
+    <link rel="stylesheet" href="./Bootstrap\bootstrap-4.4.1-dist\css\bootstrap.min.css">
     <!--    custom css-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/main.css">
     <title>UBER</title>
 </head>
 <body>
 <!--navbar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-info">
     <a class="brand" href="index.html"><img src="images/uber.png" alt="" height="50px;"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -34,7 +35,51 @@
         </ul>
     </div>
 </nav>
-<!--carousel-->
+<!--sign up-->
+<section id="signup-section">
+    <div class="container">
+        <div class="row">
+            <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+            <div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <form action="#" method="post">
+                    <fieldset>
+                        <div class="auth-img">
+                            <img src="images/add.png" alt="">
+                            <hr>
+                        </div>
+                        <h3 class="content-title">Sign Up Here</h3>
+                        <div class="form-group">
+                            <label for="">Username</label>
+                            <input type="text" name="Username" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">First_name</label>
+                            <input type="text" name="Firstname" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Last_name</label>
+                            <input type="text" name="lastname" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Email</label>
+                            <input type="email" name="Email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Password</label>
+                            <input type="Password" name="Pass1" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Confirm password</label>
+                            <input type="Password" name="Pass2" class="form-control">
+                        </div>
+                        <button class="btn btn-info"> Create Account</button>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+        </div>
+    </div>
+</section>
 
 
 

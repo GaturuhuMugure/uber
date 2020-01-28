@@ -33,3 +33,24 @@
     height: 100vh;
     bold: 1px solid black;
 }
+/*signup section*/
+/*#signup-section{*/
+    /*background-image: url("../images/sign.jpg");*/
+
+#signup-section fieldset, #login-section fieldset{
+    margin-top: 30px;
+    /*background-color: crimson;*/
+    padding: 20px;
+    border-radius: 15px;
+    font-family: monospace;
+    border: 2px #cccccc solid;
+    box-shadow: 3px 3px 3px 3px midnightblue;
+}
+
+#signup-section fieldset img, #login-section fieldset img{
+    /*border: 100px solid red;*/
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    margin-left: 100px;
+}
