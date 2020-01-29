@@ -54,3 +54,10 @@
     text-align: center;
     margin-left: 100px;
 }
+#section-about .bg-image{
+    background-color: red;
+    background-image: url("../images/pt.jpg");
+    height: 100vh;
+    font-family: Billgates;
+
+}
